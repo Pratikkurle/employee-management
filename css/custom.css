@@ -1,0 +1,141 @@
+/* new Custom css */
+.profile-widget {
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+    overflow: hidden;
+}
+.profile-img {
+    cursor: pointer;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    width: 80px;
+}
+.profile-img .avatar {
+    font-size: 24px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    width: 80px;
+}
+.avatar > img {
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.dropdown.profile-action {
+    position: absolute;
+    right: 5px;
+    text-align: right;
+    top: 10px;
+}
+.user-name {
+    color: #333;
+}
+.text-ellipsis {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text-muted {
+    color: #8e8e8e !important;
+}
+.dropdown-toggle::after {
+    position: relative;
+    top: 2px;
+    opacity: 0.8;
+    margin-left: 5px;
+    display: none;
+}
+.text-ellipsis a{   
+    color: #484a4e;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.app-theme-white.app-container {
+    background: #f7f7f7;
+} .breadcrumb {
+    background-color: transparent;
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 0;
+}
+.add-btn {
+    background-color: #ff9b44;
+    border: 1px solid #ff9b44;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    font-weight: 500;
+    min-width: 140px;
+}
+.app-main .app-main__inner {
+    padding: 3px 30px 0;
+    flex: 1;
+}
+.view-icons-a{
+    background-color: #fff;
+    border: 1 px solid #e3e3e3;
+    color: #888;
+    font-size: 18px;
+    margin-right: 5px;
+    min-width: 40px;
+    padding: 4px;
+}
+.ccss {
+    height: 38px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ced4da !important;
+}
+
+
+.sucess-b{
+    height: 37px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.table-avatar {
+    align-items: center;
+    display: inline-flex;
+    font-size: inherit;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.add-cc{
+    font-size: 22px !important;
+    margin-right: 11px;
+}
+.lgo{
+    position: relative;
+    top: -15px;
+    right: 25px;
+}
+/* mobile view */
+@media only screen and (max-width: 767px) {
+    .top-mneu-c{
+        margin-top: 3rem!important;
+    }
+    .lgo{
+        position: relative;
+        top: -15px;
+        right: 25px;
+    }
+}
